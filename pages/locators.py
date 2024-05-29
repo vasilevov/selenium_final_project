@@ -4,8 +4,15 @@ from selenium.webdriver.common.by import By
 class BasePageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
     LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
+    OPEN_BASKET_BUTTON = (By.CSS_SELECTOR, ".btn-group > a.btn-default")
 class MainPageLocators():
-    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    OPEN_BASKET_BUTTON = (By.CSS_SELECTOR, ".btn-group > a.btn-default")
+
+class BasketPageLocators():
+    PRODUCT_LIST_TITLE = (By.CSS_SELECTOR, ".basket-title")
+    EMPTY_BASKET_TEXT = (By.CSS_SELECTOR, "#content_inner > p")
+
+
 
 class LoginPageLocators():
     SIGN_IN_EMAIL_FIELD = (By.CSS_SELECTOR, '[name = "login-username"]')
