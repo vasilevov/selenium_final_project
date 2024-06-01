@@ -5,12 +5,14 @@ class BasePageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
     LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
     OPEN_BASKET_BUTTON = (By.CSS_SELECTOR, ".btn-group > a.btn-default")
+    USER_ICON = (By.CSS_SELECTOR, ".icon-user")
 class MainPageLocators():
     OPEN_BASKET_BUTTON = (By.CSS_SELECTOR, ".btn-group > a.btn-default")
 
 class BasketPageLocators():
     PRODUCT_LIST_TITLE = (By.CSS_SELECTOR, ".basket-title")
     EMPTY_BASKET_TEXT = (By.CSS_SELECTOR, "#content_inner > p")
+
 
 
 
